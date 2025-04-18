@@ -1,11 +1,11 @@
 "use client"
-import Link from "next/link"
-import { Button } from "../ui/button"
-import { NavigationBar } from "./navigationBar"
-import Image from "next/image"
 import { Menu } from "lucide-react"
-import { MobileNav } from "./mobileNav"
+import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
+import { Button } from "../ui/button"
+import { MobileNav } from "./mobileNav"
+import { NavigationBar } from "./navigationBar"
 
 export const SiteNav = () => {
     const [isOpen, setIsOpen] = useState(false)

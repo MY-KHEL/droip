@@ -1,12 +1,9 @@
 import * as React from "react"
 
-import { Card, CardContent } from "@/components/ui/card"
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  CarouselItem
 } from "@/components/ui/carousel"
 import AutoScroll from "embla-carousel-auto-scroll"
 import Image from "next/image"

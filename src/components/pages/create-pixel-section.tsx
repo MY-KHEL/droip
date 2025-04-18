@@ -1,7 +1,7 @@
 "use client"
-import { useRef, useEffect } from "react"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useEffect, useRef } from "react"
 import { VerticalCarousel } from "../carousels/vertical-carousel"
 
 gsap.registerPlugin(ScrollTrigger)
