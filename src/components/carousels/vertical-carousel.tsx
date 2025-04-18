@@ -33,6 +33,7 @@ export function VerticalCarousel() {
       opts={{
         align: "start",
         loop:true,
+        
       }}
       orientation="vertical"
       className="w-full max-w-lg "
